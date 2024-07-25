@@ -1,4 +1,4 @@
-/*package testcase;
+package utility;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,11 +7,13 @@ import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 public class datareader {
+	@DataProvider(name="bvtdata")
 
 	public static void main(String[] args) throws IOException {
-		
+	/*	
 	XSSFWorkbook ExelWorkBook =null;
 		XSSFSheet ExelWSheet;
 		
@@ -27,7 +29,7 @@ public class datareader {
 		int ttlCells=ExelWSheet.getRow(0).getLastCellNum();
 		  
 		
-		
+		*/
 		
 		
 		
@@ -80,9 +82,9 @@ public class datareader {
 		
 		
 		
-		*//*
+		
 
 	}
 
 }
-    */
+    
